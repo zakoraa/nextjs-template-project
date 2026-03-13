@@ -1,0 +1,14 @@
+@import "./tailwind-theme.css";
+
+@import "./primitives/colors.css";
+@import "./semantic/colors.css";
+
+@import "./tokens/radius.css";
+@import "./tokens/shadows.css";
+@import "./tokens/spacing.css";
+@import "./tokens/motion.css";
+@import "./tokens/z-index.css";
+@import "./tokens/typography.css";
+
+@import "./themes/light.css";
+@import "./themes/dark.css";

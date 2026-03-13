@@ -26,7 +26,6 @@
       "@entities/*": ["src/entities/*"],
       "@widgets/*": ["src/widgets/*"],
       "@processes/*": ["src/processes/*"],
-      "@/messages/*": ["messages/*"]
     }
   },
   "include": [

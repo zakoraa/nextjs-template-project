@@ -1,9 +1,27 @@
+'use client';
+import { useTheme } from 'next-themes';
+
 import Image from "next/image";
 
 export default function Home() {
+
+  const { resolvedTheme, setTheme } = useTheme();
+
+  if (!resolvedTheme) return null;
+
+  const toggleTheme = () => {
+    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex min-h-screen items-center justify-center ">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-primary sm:items-start">
+      <button
+          onClick={toggleTheme}
+          className="rounded-md border px-3 py-2"
+        >
+          {resolvedTheme === 'dark' ? '🌙 Dark' : '☀️ Light'}
+        </button>
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -12,7 +30,7 @@ export default function Home() {
           height={20}
           priority
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+        <div className="flex bg-primary flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.tsx file.
           </h1>

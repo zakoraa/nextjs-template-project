@@ -1,0 +1,33 @@
+/* =========================================================
+   RADIUS TOKENS
+   Semantic radius tokens mapped to Tailwind radius scale
+   ========================================================= */
+
+:root {
+
+  /* interactive elements */
+
+  --radius-button: theme(borderRadius.md);
+  --radius-input: theme(borderRadius.md);
+  --radius-select: theme(borderRadius.md);
+
+
+  /* surface elements */
+
+  --radius-card: theme(borderRadius.lg);
+  --radius-popover: theme(borderRadius.lg);
+  --radius-dropdown: theme(borderRadius.lg);
+
+
+  /* overlay elements */
+
+  --radius-modal: theme(borderRadius.xl);
+  --radius-drawer: theme(borderRadius.xl);
+
+
+  /* special */
+
+  --radius-avatar: theme(borderRadius.full);
+  --radius-badge: theme(borderRadius.full);
+
+}

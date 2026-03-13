@@ -1,0 +1,199 @@
+@theme {
+
+  /* =====================================================
+     SURFACE COLORS
+     ===================================================== */
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-elevated: var(--surface-elevated);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-modal: var(--modal);
+  --color-modal-foreground: var(--modal-foreground);
+
+
+
+  /* =====================================================
+     TEXT
+     ===================================================== */
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-disabled: var(--text-disabled);
+  --color-text-inverse: var(--text-inverse);
+
+
+
+  /* =====================================================
+     BORDER
+     ===================================================== */
+
+  --color-border: var(--border);
+  --color-border-muted: var(--border-muted);
+  --color-border-strong: var(--border-strong);
+
+  --color-divider: var(--divider);
+
+
+
+  /* =====================================================
+     BRAND
+     ===================================================== */
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-active: var(--primary-active);
+  --color-primary-foreground: var(--primary-foreground);
+
+
+
+  /* =====================================================
+     SECONDARY
+     ===================================================== */
+
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-active: var(--secondary-active);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+
+
+  /* =====================================================
+     ACCENT
+     ===================================================== */
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-active: var(--accent-active);
+  --color-accent-foreground: var(--accent-foreground);
+
+
+
+  /* =====================================================
+     MUTED
+     ===================================================== */
+
+  --color-muted: var(--muted);
+  --color-muted-hover: var(--muted-hover);
+  --color-muted-foreground: var(--muted-foreground);
+
+
+
+  /* =====================================================
+     STATUS COLORS
+     ===================================================== */
+
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+
+
+
+  /* =====================================================
+     INPUT
+     ===================================================== */
+
+  --color-input: var(--input);
+  --color-input-border: var(--input-border);
+  --color-input-placeholder: var(--input-placeholder);
+
+
+
+  /* =====================================================
+     OVERLAYS
+     ===================================================== */
+
+  --color-overlay: var(--overlay);
+  --color-overlay-strong: var(--overlay-strong);
+
+
+
+  /* =====================================================
+     SCROLLBAR
+     ===================================================== */
+
+  --color-scrollbar: var(--scrollbar);
+  --color-scrollbar-hover: var(--scrollbar-hover);
+
+
+
+  /* =====================================================
+     DATA VISUALIZATION
+     ===================================================== */
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-chart-6: var(--chart-6);
+
+
+
+  /* =====================================================
+     SHADOWS
+     ===================================================== */
+
+  --shadow-surface-sm: var(--shadow-surface-sm);
+  --shadow-surface-md: var(--shadow-surface-md);
+  --shadow-surface-lg: var(--shadow-surface-lg);
+
+  --shadow-overlay-sm: var(--shadow-overlay-sm);
+  --shadow-overlay-md: var(--shadow-overlay-md);
+  --shadow-overlay-lg: var(--shadow-overlay-lg);
+
+  --shadow-focus: var(--shadow-focus);
+
+
+
+  /* =====================================================
+     Z INDEX
+     ===================================================== */
+
+  --z-base: var(--z-base);
+  --z-content: var(--z-content);
+
+  --z-dropdown: var(--z-dropdown);
+  --z-popover: var(--z-popover);
+
+  --z-overlay: var(--z-overlay);
+
+  --z-modal: var(--z-modal);
+
+  --z-toast: var(--z-toast);
+  --z-tooltip: var(--z-tooltip);
+
+
+
+  /* =====================================================
+     FONT FAMILY
+     ===================================================== */
+
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-ui: var(--font-ui);
+  --font-code: var(--font-code);
+
+}

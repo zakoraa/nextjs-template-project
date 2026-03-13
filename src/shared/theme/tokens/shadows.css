@@ -1,0 +1,42 @@
+/* =========================================================
+   SHADOW TOKENS
+   Semantic shadows built on top of Tailwind shadow utilities
+   ========================================================= */
+
+:root {
+
+  /* =====================================================
+     SURFACE ELEVATION
+     ===================================================== */
+
+  --shadow-surface-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-surface-md: 0 4px 8px rgba(0,0,0,0.06);
+  --shadow-surface-lg: 0 10px 24px rgba(0,0,0,0.08);
+
+
+  /* =====================================================
+     OVERLAY SHADOWS
+     Used for dropdowns, popovers, modals
+     ===================================================== */
+
+  --shadow-overlay-sm: 0 8px 16px rgba(0,0,0,0.08);
+  --shadow-overlay-md: 0 12px 24px rgba(0,0,0,0.12);
+  --shadow-overlay-lg: 0 20px 40px rgba(0,0,0,0.16);
+
+
+  /* =====================================================
+     FOCUS SHADOW
+     Accessibility focus ring
+     ===================================================== */
+
+  --shadow-focus: 0 0 0 3px rgba(37, 99, 235, 0.35);
+
+
+  /* =====================================================
+     INSET SHADOW
+     Used for inputs and pressed states
+     ===================================================== */
+
+  --shadow-inset: inset 0 1px 2px rgba(0,0,0,0.08);
+
+}
