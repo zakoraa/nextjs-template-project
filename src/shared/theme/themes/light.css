@@ -1,174 +1,173 @@
 /* =========================================================
    LIGHT THEME
-   Overrides semantic tokens for light mode
+   Defines actual color values for light mode
+   This layer maps primitive colors → theme tokens
    ========================================================= */
 
 :root {
 
-  /* =====================================================
-     SURFACES
-     ===================================================== */
+   /* =====================================================
+      SURFACES
+      ===================================================== */
 
-  --background: var(--white);
-  --foreground: var(--gray-900);
+   --color-background: var(--white);
+   --color-foreground: var(--gray-900);
 
-  --surface: var(--white);
-  --surface-muted: var(--gray-100);
-  --surface-elevated: var(--white);
+   --color-surface: var(--white);
+   --color-surface-muted: var(--gray-100);
+   --color-surface-elevated: var(--white);
 
-  --card: var(--white);
-  --card-foreground: var(--gray-900);
+   --color-card: var(--white);
+   --color-card-foreground: var(--gray-900);
 
-  --popover: var(--white);
-  --popover-foreground: var(--gray-900);
+   --color-popover: var(--white);
+   --color-popover-foreground: var(--gray-900);
 
-  --modal: var(--white);
-  --modal-foreground: var(--gray-900);
-
-
-
-  /* =====================================================
-     TEXT HIERARCHY
-     ===================================================== */
-
-  --text-primary: var(--gray-900);
-  --text-secondary: var(--gray-600);
-  --text-muted: var(--gray-500);
-  --text-disabled: var(--gray-400);
-
-  --text-inverse: var(--white);
+   --color-modal: var(--white);
+   --color-modal-foreground: var(--gray-900);
 
 
 
-  /* =====================================================
-     BORDER SYSTEM
-     ===================================================== */
+   /* =====================================================
+      TEXT HIERARCHY
+      ===================================================== */
 
-  --border: var(--gray-200);
-  --border-muted: var(--gray-100);
-  --border-strong: var(--gray-300);
+   --color-text-primary: var(--gray-900);
+   --color-text-secondary: var(--gray-600);
+   --color-text-muted: var(--gray-500);
+   --color-text-disabled: var(--gray-400);
 
-  --divider: var(--gray-200);
-
-
-
-  /* =====================================================
-     INPUTS
-     ===================================================== */
-
-  --input: var(--white);
-  --input-border: var(--gray-300);
-  --input-placeholder: var(--gray-400);
-  --input-focus: var(--brand-primary);
+   --color-text-inverse: var(--white);
 
 
 
-  /* =====================================================
-     BRAND ACTIONS
-     ===================================================== */
+   /* =====================================================
+      BORDER SYSTEM
+      ===================================================== */
 
-  --primary: var(--brand-primary);
-  --primary-hover: var(--brand-primary-hover);
-  --primary-active: var(--brand-primary-active);
-  --primary-foreground: var(--white);
+   --color-border: var(--gray-200);
+   --color-border-muted: var(--gray-100);
+   --color-border-strong: var(--gray-300);
 
-
-
-  /* =====================================================
-     SECONDARY ACTIONS
-     ===================================================== */
-
-  --secondary: var(--gray-100);
-  --secondary-hover: var(--gray-200);
-  --secondary-active: var(--gray-300);
-  --secondary-foreground: var(--gray-900);
+   --color-divider: var(--gray-200);
 
 
 
-  /* =====================================================
-     ACCENT COLORS
-     ===================================================== */
+   /* =====================================================
+      INPUTS
+      ===================================================== */
 
-  --accent: var(--blue-50);
-  --accent-hover: var(--blue-100);
-  --accent-active: var(--blue-200);
-  --accent-foreground: var(--blue-700);
-
-
-
-  /* =====================================================
-     MUTED SURFACES
-     ===================================================== */
-
-  --muted: var(--gray-100);
-  --muted-hover: var(--gray-200);
-  --muted-foreground: var(--gray-500);
+   --color-input: var(--white);
+   --color-input-border: var(--gray-300);
+   --color-input-placeholder: var(--gray-400);
+   --color-input-focus: var(--brand-primary);
 
 
 
-  /* =====================================================
-     STATUS COLORS
-     ===================================================== */
+   /* =====================================================
+      BRAND ACTIONS
+      ===================================================== */
 
-  --success: var(--color-success);
-  --success-foreground: var(--white);
-
-  --warning: var(--color-warning);
-  --warning-foreground: var(--black);
-
-  --destructive: var(--color-danger);
-  --destructive-foreground: var(--white);
-
-  --info: var(--color-info);
-  --info-foreground: var(--white);
+   --color-primary: var(--brand-primary);
+   --color-primary-hover: var(--brand-primary-hover);
+   --color-primary-active: var(--brand-primary-active);
+   --color-primary-foreground: var(--white);
 
 
 
-  /* =====================================================
-     FOCUS & ACCESSIBILITY
-     ===================================================== */
+   /* =====================================================
+      SECONDARY ACTIONS
+      ===================================================== */
 
-  --focus-ring: var(--focus-ring);
-  --ring: var(--focus-ring);
-
-
-
-  /* =====================================================
-     OVERLAYS
-     ===================================================== */
-
-  --overlay: var(--overlay-light);
-  --overlay-strong: var(--overlay-strong);
+   --color-secondary: var(--gray-100);
+   --color-secondary-hover: var(--gray-200);
+   --color-secondary-active: var(--gray-300);
+   --color-secondary-foreground: var(--gray-900);
 
 
 
-  /* =====================================================
-     SELECTION
-     ===================================================== */
+   /* =====================================================
+      ACCENT COLORS
+      ===================================================== */
 
-  --selection-background: var(--selection-bg);
-  --selection-foreground: var(--selection-text);
-
-
-
-  /* =====================================================
-     SCROLLBARS
-     ===================================================== */
-
-  --scrollbar: var(--gray-300);
-  --scrollbar-hover: var(--gray-400);
+   --color-accent: var(--blue-50);
+   --color-accent-hover: var(--blue-100);
+   --color-accent-active: var(--blue-200);
+   --color-accent-foreground: var(--blue-700);
 
 
 
-  /* =====================================================
-     DATA VISUALIZATION
-     ===================================================== */
+   /* =====================================================
+      MUTED SURFACES
+      ===================================================== */
 
-  --chart-1: var(--chart-1);
-  --chart-2: var(--chart-2);
-  --chart-3: var(--chart-3);
-  --chart-4: var(--chart-4);
-  --chart-5: var(--chart-5);
-  --chart-6: var(--chart-6);
+   --color-muted: var(--gray-100);
+   --color-muted-hover: var(--gray-200);
+   --color-muted-foreground: var(--gray-500);
 
+
+
+   /* =====================================================
+      STATUS COLORS
+      ===================================================== */
+
+   --color-success: var(--green-600);
+   --color-success-foreground: var(--white);
+
+   --color-warning: var(--yellow-500);
+   --color-warning-foreground: var(--black);
+
+   --color-danger: var(--red-600);
+   --color-danger-foreground: var(--white);
+
+   --color-info: var(--blue-600);
+   --color-info-foreground: var(--white);
+
+
+
+   /* =====================================================
+      FOCUS & ACCESSIBILITY
+      ===================================================== */
+
+   --color-focus-ring: var(--brand-primary);
+
+
+
+   /* =====================================================
+      OVERLAYS
+      ===================================================== */
+
+   --color-overlay: rgba(0, 0, 0, 0.4);
+   --color-overlay-strong: rgba(0, 0, 0, 0.6);
+
+
+
+   /* =====================================================
+      SELECTION
+      ===================================================== */
+
+   --color-selection-bg: var(--blue-100);
+   --color-selection-text: var(--gray-900);
+
+
+
+   /* =====================================================
+      SCROLLBARS
+      ===================================================== */
+
+   --color-scrollbar: var(--gray-300);
+   --color-scrollbar-hover: var(--gray-400);
+
+
+
+   /* =====================================================
+      DATA VISUALIZATION
+      ===================================================== */
+
+   --color-chart-1: var(--chart-1);
+   --color-chart-2: var(--chart-2);
+   --color-chart-3: var(--chart-3);
+   --color-chart-4: var(--chart-4);
+   --color-chart-5: var(--chart-5);
+   --color-chart-6: var(--chart-6);
 }
