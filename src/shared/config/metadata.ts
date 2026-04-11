@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 
-import type { Metadata } from 'next';
-
 const siteConfig = {
   name: 'YourSiteName',
   url: 'https://yourdomain.com',
