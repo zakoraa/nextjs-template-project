@@ -1,25 +1,28 @@
 import type { Metadata } from 'next';
 
-export const siteMetadata: Metadata = {
+import type { Metadata } from 'next';
+
+const siteConfig = {
+  name: 'YourSiteName',
+  url: 'https://yourdomain.com',
+  description: 'Your default site description.',
+  keywords: ['your', 'keywords', 'here'],
+};
+
+export const defaultMetadata: Metadata = {
   title: {
-    default: 'iBantu Blockchain',
-    template: '%s | iBantu',
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
   },
-  description:
-    'Enterprise blockchain infrastructure for the decentralized future.',
-  keywords: [
-    'blockchain',
-    'web3',
-    'crypto',
-    'iBantu',
-    'decentralized infrastructure',
-  ],
-  metadataBase: new URL('https://ibantu.com'),
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  metadataBase: new URL(siteConfig.url),
+
   openGraph: {
-    title: 'iBantu Blockchain',
-    description: 'Enterprise blockchain infrastructure',
-    url: 'https://ibantu.com',
-    siteName: 'iBantu',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
     images: [
       {
         url: '/images/og-image.png',
@@ -30,11 +33,13 @@ export const siteMetadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'iBantu',
-    description: 'Enterprise blockchain infrastructure',
+    title: siteConfig.name,
+    description: siteConfig.description,
   },
+
   robots: {
     index: true,
     follow: true,
