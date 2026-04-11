@@ -7,7 +7,7 @@ const siteConfig = {
   keywords: ['your', 'keywords', 'here'],
 };
 
-export const defaultMetadata: Metadata = {
+export const siteMetadata: Metadata = {
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
