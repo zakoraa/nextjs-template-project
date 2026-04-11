@@ -72,7 +72,7 @@ export class {{pascalCase name}}RepositoryImpl implements {{pascalCase name}}Rep
 
       {
         type: "add",
-        path: "src/features/{{kebabCase name}}/presentation/components/index.ts",
+        path: "src/features/{{kebabCase name}}/presentation/components/index.tsx",
         template: `// components for {{kebabCase name}}
 `,
       },
@@ -93,7 +93,7 @@ export class {{pascalCase name}}RepositoryImpl implements {{pascalCase name}}Rep
 
       {
         type: "add",
-        path: "src/features/{{kebabCase name}}/presentation/pages/index.ts",
+        path: "src/features/{{kebabCase name}}/presentation/pages/index.tsx",
         template: `// pages for {{kebabCase name}}
 `,
       },
